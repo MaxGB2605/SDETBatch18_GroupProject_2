@@ -1,6 +1,8 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 public class A_10_RemoveDuplicatesFromArrayList {
     public static void main(String[] args) {
@@ -22,5 +24,8 @@ public class A_10_RemoveDuplicatesFromArrayList {
             }
         }
         System.out.println(removeDuplicates);
+        System.out.println("++++++++++++++++++++++++++++");
+        Set<String> unique = new LinkedHashSet<>(strArr);
+        System.out.println(unique);
     }
 }

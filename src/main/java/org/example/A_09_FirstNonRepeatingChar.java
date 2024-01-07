@@ -18,6 +18,19 @@ public class A_09_FirstNonRepeatingChar {
             }
         }
 
+String s2 = "hroonhfrgjstwijdjz";
 
+        for (int i = 0; i < s2.length(); i++) {
+            boolean isRepeating=false;
+            for (int j = 0; j < s2.length(); j++) {
+                if (i!=j && s2.charAt(i)==s2.charAt(j)){
+                    isRepeating=true;
+                    break;
+                }
+            }if (!isRepeating){
+                System.out.println(s2.charAt(i));
+                break;
+            }
+        }
     }
 }

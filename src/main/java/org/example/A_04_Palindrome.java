@@ -12,5 +12,7 @@ public class A_04_Palindrome {
         }else{
             System.out.println("Not palindrome");
         }
+        System.out.println("_________________________");
+
     }
 }

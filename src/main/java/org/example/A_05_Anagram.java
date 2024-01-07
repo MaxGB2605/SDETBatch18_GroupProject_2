@@ -44,6 +44,16 @@ public class A_05_Anagram {
         }else {
             System.out.println(a1+" and "+a2+" are not anagrams");
         }
+        System.out.println("____________________________");
+        String c1="comonec";
+        String c2="monecoc";
+        char [] charC1=c1.toCharArray();
+        char[] charC2=c2.toCharArray();
+        Arrays.sort(charC1);
+        Arrays.sort(charC2);
+        System.out.println(Arrays.toString(charC1));
+        System.out.println(Arrays.toString(charC2));
+        System.out.println(Arrays.equals(charC1,charC2));
     }
 }
 

@@ -13,5 +13,9 @@ public class A_02_AlphaCharacter {
             }
         }
         System.out.println("Alpha character count is: "+count);
+        System.out.println("______________________________");
+
+        String str2="Find out how many alpha characters are present in a string";
+        System.out.println(str2.replaceAll("[^a-zA-Z]","").length());
     }
 }

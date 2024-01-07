@@ -11,6 +11,16 @@ public class A_01_SwapString {
         str1 = str1.substring(str2.length());
         System.out.println("After swap; " + str1 + " - " + str2);
 
-
+        System.out.println("=========================");
+        String a = "Hello";
+        String b = "world";
+        System.out.println("Before: "+a+" - "+b);
+        a=a+b;
+        System.out.println(a);
+        b=a.substring(0,a.length()-b.length());
+        System.out.println(b);
+        a=a.substring(a.length()-b.length());
+        System.out.println(a);
+        System.out.println("After: "+a+" - "+b);
     }
 }
