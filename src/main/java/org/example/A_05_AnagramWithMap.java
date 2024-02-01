@@ -9,6 +9,9 @@ public class A_05_AnagramWithMap {
         String s1 = "listen";
         String s2 = "silent";
         System.out.println(countChar(s1));
+        System.out.println(countChar(s2));
+boolean isAnagram = countChar(s1).equals(countChar(s2));
+        System.out.println(isAnagram);
 
 
     }
